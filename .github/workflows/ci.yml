@@ -21,6 +21,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs mkdocs-material
+          pip install mkdocs-video
+          pip install pymdown-extensions
 
       - name: Build MkDocs site
         run: |
