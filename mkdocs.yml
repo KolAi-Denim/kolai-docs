@@ -47,12 +47,12 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-nav: # FOR NEXT TIME: Change to "Home", "Laser Design", "3D Design" and "API" with subsections for PS plugins, etc.
+nav:
   - Home: index.md
   - Laser Design:
     - KolAi Designer: laser/kolai-designer.md
     - Photoshop Plugin: laser/ps-plugin.md
   - 3D Design: 
-    - Coming Soon...: 3d/background.md
-#    - Photoshop Plugin: 3d/ps-plugin.md
+    - KolAi 3D Designer: 3d/3d-designer.md
+    - Photoshop Plugin: 3d/ps-plugin.md
   - API: api.md
